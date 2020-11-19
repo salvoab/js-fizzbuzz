@@ -8,7 +8,7 @@
 
 for(var numero=1; numero<101; numero++){
     var divNumeriContenuto = document.getElementById("numeri").innerHTML;
-    if((numero % 3 == 0) && (numero % 5) == 0){
+    if((numero % 3 == 0) && (numero % 5 == 0)){
         //console.log("FizzBuzz");
         document.getElementById("numeri").innerHTML = divNumeriContenuto + '<div class="fizz-buzz">FizzBuzz</div>';
     } else if(numero % 3 == 0){
