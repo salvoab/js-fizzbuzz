@@ -6,7 +6,7 @@
 *****************************************************************************************************/
 
 for(var numero=1; numero<101; numero++){
-    if((numero % 3 == 0) && (numero % 5) == 0){
+    if((numero % 3 == 0) && (numero % 5 == 0)){
         console.log("FizzBuzz");
     } else if(numero % 3 == 0){
         console.log("Fizz");
