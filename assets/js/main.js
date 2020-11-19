@@ -5,3 +5,14 @@
  * Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.
 *****************************************************************************************************/
 
+for(var numero=1; numero<101; numero++){
+    if((numero % 3 == 0) && (numero % 5) == 0){
+        console.log("FizzBuzz");
+    } else if(numero % 3 == 0){
+        console.log("Fizz");
+    } else if(numero % 5 == 0){
+        console.log("Buzz");
+    } else {
+        console.log(numero);
+    }
+}
